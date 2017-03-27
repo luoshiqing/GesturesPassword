@@ -12,6 +12,7 @@
 		D6847C021E84B845006DBBB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6847C001E84B845006DBBB0 /* Main.storyboard */; };
 		D6847C041E84B845006DBBB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6847C031E84B845006DBBB0 /* Assets.xcassets */; };
 		D6847C071E84B845006DBBB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6847C051E84B845006DBBB0 /* LaunchScreen.storyboard */; };
+		D6847C0F1E84B906006DBBB0 /* PwdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6847C0E1E84B906006DBBB0 /* PwdView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D6847C031E84B845006DBBB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6847C061E84B845006DBBB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6847C081E84B845006DBBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6847C0E1E84B906006DBBB0 /* PwdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PwdView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				D6847BFC1E84B844006DBBB0 /* AppDelegate.swift */,
 				D6847BFE1E84B844006DBBB0 /* ViewController.swift */,
+				D6847C0E1E84B906006DBBB0 /* PwdView.swift */,
 				D6847C001E84B845006DBBB0 /* Main.storyboard */,
 				D6847C031E84B845006DBBB0 /* Assets.xcassets */,
 				D6847C051E84B845006DBBB0 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6847C0F1E84B906006DBBB0 /* PwdView.swift in Sources */,
 				D6847BFF1E84B844006DBBB0 /* ViewController.swift in Sources */,
 				D6847BFD1E84B844006DBBB0 /* AppDelegate.swift in Sources */,
 			);

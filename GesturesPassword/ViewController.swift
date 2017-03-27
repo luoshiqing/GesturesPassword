@@ -12,7 +12,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        let pwdV = PwdView(frame: self.view.bounds)
+        
+        pwdV.backgroundColor = UIColor.white
+        
+        self.view.addSubview(pwdV)
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
